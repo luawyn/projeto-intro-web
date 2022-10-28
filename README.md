@@ -2,6 +2,10 @@
 
 <strong>https://luawyn.github.io/projeto-intro-web/</strong>
 
+Preview projeto finalizado:
+https://user-images.githubusercontent.com/92114917/198487031-389d6c48-5b50-4d01-8fb0-df879265a651.mp4
+
+
 Esse é o projeto de introdução aos fundamentos do desenvolvimento Web. Aqui, vamos praticar a estrutura do que faremos pelo curso todo. O objetivo é construir uma página estilizada, e com **lista** e **busca** utilizando manipulação de DOM, praticando o conteúdo do módulo com JS:
 
 - Variáveis
