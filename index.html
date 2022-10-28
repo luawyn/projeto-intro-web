@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!-- PAGE INFO -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ComedyTV</title>
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- SWIPER -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">comedy<span class="span1">tv</span>.</a>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Home</a></li>
+            <li><a class="title" href="#categories">Series</a></li>
+            <li><a class="title" href="#about">About</a></li>
+            <li><a class="title" href="#testimonials">Testimonials</a></li>
+            <li><a class="title" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-x"></div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img src="./assets/images/friends.jpg" alt="friends serie" />
+          </div>
+          <div class="text">
+            <h2 class="title">All information about the best comedy series</h2>
+            <p class="subtitle">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+              impedit rerum optio nulla, architecto sequi, dolor adipisci veniam
+              accusantium, provident officiis quis? Ipsam, atque autem possimus
+              eum reiciendis soluta quo!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <section class="section" id="categories">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Series</h2>
+            <p class="subtitle">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
+              <strong>ComedyTV</strong>! Aliquam qui expedita reprehenderit ab
+              esse numquam sequi, quibusdam delectus rem perferendis corporis
+              sed! Voluptatibus libero soluta omnis accusantium!
+            </p>
+            <br />
+            <input
+              type="text"
+              name="input-series"
+              id="input-series"
+              style="text-align: center"
+              placeholder="
+          Search for your favorite series here"
+              onkeyup="search()"
+              list="input-search"
+            /><datalist id="input-search">
+              <option value="Friends"></option>
+              <option value="The Big Bang Theory"></option>
+              <option value="The Good Place"></option>
+              <option value="Rick and Morty"></option>
+              <option value="Saiki Kusuo no Psi-nan"></option>
+            </datalist>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <div class="images-cards">
+                <img src="./assets/images/the-office.jpg" alt="the office" />
+              </div>
+              <h3 class="title">
+                <a
+                  href="https://pt.wikipedia.org/wiki/The_Office_(Estados_Unidos)"
+                  target="_blank"
+                  >The Office</a
+                >
+              </h3>
+              <p class="subtitle">
+                Ano de lançamento: 2005 <br />Nota do IMDb: 9 <br /><strong
+                  >9 temporadas e 201 episódios</strong
+                >
+              </p>
+            </div>
+            <div class="card">
+              <div class="images-cards">
+                <img
+                  src="./assets/images/parks-and-rec.jpg"
+                  alt="parks and recreation"
+                />
+              </div>
+              <h3 class="title">
+                <a
+                  href="https://pt.wikipedia.org/wiki/Parks_and_Recreation"
+                  target="_blank"
+                  >Parks And Recreation</a
+                >
+              </h3>
+              <p class="subtitle">
+                Ano de lançamento: 2009 <br />Nota do IMDb: 8,6 <br /><strong
+                  >7 temporadas e 125 episódios</strong
+                >
+              </p>
+            </div>
+            <div class="card">
+              <div class="images-cards">
+                <img src="./assets/images/b99.jpeg" alt="brooklyn 99" />
+              </div>
+              <h3 class="title">
+                <a
+                  href="https://pt.wikipedia.org/wiki/Brooklyn_Nine-Nine"
+                  target="_blank"
+                  >Brooklyn Nine-Nine</a
+                >
+              </h3>
+              <p class="subtitle">
+                Ano de lançamento: 2013 <br />Nota do IMDb: 8,4 <br /><strong
+                  >8 temporadas e 153 episódios</strong
+                >
+              </p>
+            </div>
+            <div class="card hidden">
+              <div class="images-cards">
+                <img src="./assets/images/friends2.jpeg" alt="friends" />
+              </div>
+              <h3 class="title">
+                <a href="https://pt.wikipedia.org/wiki/Friends" target="_blank"
+                  >Friends</a
+                >
+              </h3>
+              <p class="subtitle">
+                Ano de lançamento: 1994 <br />Nota do IMDb: 8,9 <br /><strong
+                  >10 temporadas e 236 episódios</strong
+                >
+              </p>
+            </div>
+            <div class="card hidden">
+              <div class="images-cards">
+                <img
+                  src="./assets/images/big-bang.jpg"
+                  alt="The Big Bang Theory"
+                />
+              </div>
+              <h3 class="title">
+                <a
+                  href="https://pt.wikipedia.org/wiki/The_Big_Bang_Theory"
+                  target="_blank"
+                  >The Big Bang Theory</a
+                >
+              </h3>
+              <p class="subtitle">
+                Ano de lançamento: 2007 <br />Nota do IMDb: 8,2 <br /><strong
+                  >12 temporadas e 279 episódios</strong
+                >
+              </p>
+            </div>
+            <div class="card hidden">
+              <div class="images-cards">
+                <img
+                  src="./assets/images/good-place.jpg"
+                  alt="The Good Place"
+                />
+              </div>
+              <h3 class="title">
+                <a
+                  href="https://pt.wikipedia.org/wiki/The_Good_Place"
+                  target="_blank"
+                  >The Good Place</a
+                >
+              </h3>
+              <p class="subtitle">
+                Ano de lançamento: 2016 <br />Nota do IMDb: 8,2 <br /><strong
+                  >4 temporadas e 52 episódios</strong
+                >
+              </p>
+            </div>
+            <div class="card hidden">
+              <div class="images-cards">
+                <img
+                  src="./assets/images/rick-and-morty.jpg"
+                  alt="Rick and Morty"
+                />
+              </div>
+              <h3 class="title">
+                <a
+                  href="https://pt.wikipedia.org/wiki/Rick_and_Morty"
+                  target="_blank"
+                  >Rick and Morty</a
+                >
+              </h3>
+              <p class="subtitle">
+                Ano de lançamento: 2013 <br />Nota do IMDb: 8,7 <br /><strong
+                  >6 temporadas e 51 episódios (ainda em lançamento)</strong
+                >
+              </p>
+            </div>
+            <div class="card hidden">
+              <div class="images-cards">
+                <img
+                  src="./assets/images/saiki-kusuo.jpg"
+                  alt="Saiki Kusuo no Psi-nan"
+                />
+              </div>
+              <h3 class="title">
+                <a
+                  href="https://pt.wikipedia.org/wiki/Saiki_Kusuo_no_Psi-nan"
+                  target="_blank"
+                  >Saiki Kusuo no Psi-nan</a
+                >
+              </h3>
+              <p>
+                Ano de lançamento: 2017 <br />Nota do IMDb: 8,4 <br /><strong
+                  >3 temporadas e 56 episódios</strong
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img src="./assets/images/about-us.jpg" alt="women smiling" />
+          </div>
+          <div class="text">
+            <h2 class="title">About Us</h2>
+            <p class="subtitle">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              cupiditate repellat odit nam fugit placeat, a aperiam cumque
+              perferendis laudantium, ut officiis excepturi velit temporibus eos
+              asperiores laborum nulla porro.
+            </p>
+            <br />
+            <p class="subtitle">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Reprehenderit ad facilis porro tempora dolorum consequatur
+              voluptas laudantium molestias praesentium. Et illum enim officia
+              expedita numquam. Laborum aspernatur ea sit praesentium.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Testimonials</h2>
+          </header>
+          <div class="testimonials swiper">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p class="subtitle">
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iusto eligendi ex ut sapiente provident, temporibus officiis
+                    corporis soluta ipsa iure eum, veniam dolorem doloremque
+                    minima veritatis enim quisquam vero corporis soluta ipsa
+                    iure eum! Hic?
+                  </p>
+                  <cite>
+                    <img
+                      src="./assets/images/56.jpg"
+                      alt="Portrait of Kurt Byrd"
+                    />
+                    Kurt Byrd
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p class="subtitle">
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quas maxime aut fuga assumenda dolor commodi laborum
+                    explicabo molestiae distinctio iste molestias quia nisi
+                    fugiat, animi reprehenderit error perferendis dolore! Natus.
+                  </p>
+                  <cite>
+                    <img
+                      src="./assets/images/54.jpg"
+                      alt="Portrait of Sophie Cole"
+                    />
+                    Sophie Cole
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p class="subtitle">
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quam sapiente dolor itaque distinctio nisi aut quod possimus
+                    accusamus similique exercitationem et dicta atque eos
+                    architecto nesciunt, explicabo culpa, maxime dolores!
+                  </p>
+                  <cite>
+                    <img
+                      src="./assets/images/9.jpg"
+                      alt="Portrait of Lily Collins"
+                    />
+                    Lily Collins
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5516988772265&text=Olá!"
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i>Entrar em contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone-call"></i> 16 98877-2265</li>
+              <li><i class="icon-map-pin"></i> SQSW 105, Brasília - DF</li>
+              <li><i class="icon-mail"></i> luanaftrevizani@gmail.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+    </main>
+
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo" href="#home">comedy<span class="span2">tv</span>.</a>
+          <p>©2022 ComedyTV.</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+        <div class="social">
+          <a href="https://www.instagram.com/luawyn/" target="_blank"
+            ><i class="icon-instagram"></i
+          ></a>
+          <a href="https://github.com/luawyn" target="_blank"
+            ><i class="icon-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/luanaftrevizani/" target="_blank"
+            ><i class="icon-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
