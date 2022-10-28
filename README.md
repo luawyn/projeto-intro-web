@@ -1,6 +1,6 @@
 # Projeto de Introdução ao desenvolvimento web
 
-## Confira aqui o projeto: <strong>https://luawyn.github.io/projeto-intro-web/</strong>
+## Confira aqui o projeto: <strong>https://luawyn.github.io/projeto-intro-web/ (lembrando que algumas funcionalidades extras adicionadas no js não estão funcionando por esse link, como o caso do ScrollReveal e o botão que leva pro ínicio)</strong>
 
 
 Esse é o projeto de introdução aos fundamentos do desenvolvimento Web. Aqui, vamos praticar a estrutura do que faremos pelo curso todo. O objetivo é construir uma página estilizada, e com **lista** e **busca** utilizando manipulação de DOM, praticando o conteúdo do módulo com JS:
